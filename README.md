@@ -29,3 +29,29 @@ make
 make clean
 
 ## Testes
+
+Os testes são realizados utilizando o arquivo `sync_car-runner.c`, fornecido pelo professor, que verifica o funcionamento das funções de sincronização e do embarque de passageiros.
+
+Para compilar e executar:
+
+```bash
+make clean
+make
+./sync_car
+```
+
+Se o programa funcionar corretamente nos testes do runner, será exibida a mensagem:
+
+```text
+Looks good!
+```
+
+Para executar o runner 20 vezes e verificar possíveis falhas de sincronização:
+
+```bash
+for i in $(seq 1 20); do
+    echo "Teste $i"
+    ./sync_car || break
+done
+```
+
