@@ -1,14 +1,8 @@
 
-sync_car: sync_car.o sync_car-runner.o
-	gcc sync_car.o sync_car-runner.o -o sync_car -pthread
-
-sync_car.o: sync_car.c sync_car.h
-	gcc -Wall -Wextra -pthread -c sync_car.c
-
-sync_car-runner.o: sync_car-runner.c sync_car.h
-	gcc -Wall -Wextra -pthread -c sync_car-runner.c
+sync_car: sync_car.c sync_car-runner.c sync_car.h
+	gcc -Wall -Wextra -pthread sync_car.c sync_car-runner.c -o sync_car
 
 clean:
-	rm -f *.o sync_car
+	rm -f sync_car *.o
 
 .PHONY: clean
