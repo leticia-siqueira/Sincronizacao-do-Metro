@@ -12,10 +12,30 @@ void station_init(struct station *station) {
 
     pthread_cond_init(&station->embarque_liberado, NULL);
     pthread_cond_init(&station->terminou_embarque, NULL);
-    
+
 }
 
 void station_load_car(struct station *station, int count) {
+
+    
+    station->lugares_livres = count;
+    
+    pthread_cond_broadcast(&station->embarque_liberado);
+    
+    pthread_mutex_lock(&station->mutex);
+
+    while ((station->passageiros_esperando > 0 && station->lugares_livres > 0) || station->aguardando_embarcar > 0) {
+
+        pthread_cond_wait(&station->terminou_embarque, &station->mutex);
+    }
+
+    pthread_mutex_unlock(&station->mutex);
+    
+    station->lugares_livres = 0;
+
+}
+
+void station_wait_for_car(struct station *station) {
 
     station->passageiros_esperando++;
 
@@ -29,34 +49,11 @@ void station_load_car(struct station *station, int count) {
 
 }
 
-void station_wait_for_car(struct station *station) {
-    
-    pthread_mutex_lock(&station->mutex);
+
+void station_on_board(struct station *station) {
 
     station->aguardando_embarcar--;
 
     pthread_cond_signal(&station->terminou_embarque);
-
-    pthread_mutex_unlock(&station->mutex);
-
-}
-
-
-void station_load_car(struct station *station, int count) {
-
-    station->lugares_livres = count;
-
-    pthread_cond_broadcast(&station->embarque_liberado);
-
-    pthread_mutex_lock(&station->mutex);
-
-    while ((station->passageiros_esperando > 0 && station->lugares_livres > 0) || station->aguardando_embarcar > 0) {
-
-        pthread_cond_wait(&station->terminou_embarque, &station->mutex);
-    }
-    
-    pthread_mutex_unlock(&station->mutex);
-
-    station->lugares_livres = 0;
 
 }
