@@ -1,1 +1,1 @@
-# Sincroniza-o-do-Metro
+# Sincronização do Metrô
