@@ -565,3 +565,367 @@ Looks good!
 [?2004lexit
 
 Script done on 2026-11-04 18:36:52-03:00 [COMMAND_EXIT_CODE="0"]
+Script started on 2026-11-04 19:01:16-03:00 [TERM="xterm-256color" TTY="/dev/pts/4" COLUMNS="170" LINES="19"]
+[?2004h]0;letciasiqueira@Letcia: ~/lmss4/Sincronizacao-do-Metro[01;32mletciasiqueira@Letcia[00m:[01;34m~/lmss4/Sincronizacao-do-Metro[00m$ cd ..
+[?2004l[?2004h]0;letciasiqueira@Letcia: ~/lmss4[01;32mletciasiqueira@Letcia[00m:[01;34m~/lmss4[00m$ cd ..[1Pexitfor i in $(seq 1 20); do     echo "Teste $i";     ./sync_car || break; done[K[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmake[K clean./sync_car[6Pmake./sync_car[6Pmake./sync_carmake clean[Kfor i in $(seq 1 20); do     echo "Teste $i";     ./sync_car || break; done[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[Kcd ..[Kcd ..[1Pexitfor i in $(seq 1 20); do     echo "Teste $i";     ./sync_car || break; done[K[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmake[K clean./sync_car[6Pmakeexitfor i in $(seq 1 20); do     echo "Teste $i";     ./sync_car || break; done[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[Kmake./sync_carmake clean[Kfor i in $(seq 1 20); do     echo "Teste $i";     ./sync_car || break; done[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[Kcd ..[K[7mgcc -Wall -Wextra -pthread -I./Sincronizacao-do-Metro Sincronizacao-do-Metro/sync_car.c testes_locais/teste_casos.c -o testes_locais/teste_[27m[7mc[27m[7masos[27m[A]0;letciasiqueira@Letcia: ~/lmss4[01;32mletciasiqueira@Letcia[00m:[01;34m~/lmss4[00m$ gcc -Wall -Wextra -pthread -I./Sincronizacao-do-Metro Sincronizacao-do-Metro/sync_car.c testes_locais/teste_casos.c -o testes_locais/teste_casos
+[?2004l[?2004h]0;letciasiqueira@Letcia: ~/lmss4[01;32mletciasiqueira@Letcia[00m:[01;34m~/lmss4[00m$ [7mtimeout 10s ./testes_locais/teste_casos 2[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ctimeout 10s ./testes_locais/teste_casos 2
+[?2004lIniciando teste 2
+Autorizados: 5
+Carro ainda espera confirmacoes: correto.
+Primeiro carro saiu.
+Chegando segundo carro com 5 lugares.
+Total autorizado: 10
+Teste 2 concluido!
+[?2004h]0;letciasiqueira@Letcia: ~/lmss4[01;32mletciasiqueira@Letcia[00m:[01;34m~/lmss4[00m$ [7mtimeout 10s ./testes_locais/teste_casos 3[27m
+[7mtimeout 10s ./testes_locais/teste_casos 4[27m
+[7mtimeout 10s ./testes_locais/teste_casos 5[27m[A[Atimeout 10s ./testes_locais/teste_casos 3
+timeout 10s ./testes_locais/teste_casos 4
+timeout 10s ./testes_locais/teste_casos 5
+[?2004lIniciando teste 3
+Autorizados: 5
+Carro ainda espera confirmacoes: correto.
+Total autorizado: 5
+Teste 3 concluido!
+Iniciando teste 4
+Autorizados: 5
+Carro ainda espera confirmacoes: correto.
+Total autorizado: 5
+Teste 4 concluido!
+Iniciando teste 5
+2 passageiros autorizados.
+Criando mais 3 passageiros.
+Autorizados: 5
+Carro ainda espera confirmacoes: correto.
+Total autorizado: 5
+Teste 5 concluido!
+[?2004h]0;letciasiqueira@Letcia: ~/lmss4[01;32mletciasiqueira@Letcia[00m:[01;34m~/lmss4[00m$ cd [K[K[Ktimeout 10s ./testes_locais/teste_casos 5432[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgcc -Wall -Wextra -pthread -I./Sincronizacao-do-Metro Sincronizacao-do-Metro/sync_car.c testes_locais/teste_casos.c -o testes_locais/teste_casos[A]0;letciasiqueira@Letcia: ~/lmss4[01;32mletciasiqueira@Letcia[00m:[01;34m~/lmss4[00m$ cd ..[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pexitfor i in $(seq 1 20); do     echo "Teste $i";     ./sync_car || break; done[K[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmake[K clean./sync_car[6Pmakeexitfor i in $(seq 1 20); do     echo "Teste $i";     ./sync_car || break; done[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmake[K clean[6Pexit./sync_car[6Pmake clean[6Pexit./sync_car[6Pexitmake clean[K./sync_car[6Pexitmake clean[Kfor i in $(seq 1 20); do     echo "Teste $i";     ./sync_car || break; done[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[Kmake./sync_carmake clean[Kfor i in $(seq 1 20); do     echo "Teste $i";     ./sync_car || break; done[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[Kcd ..gcc -Wall -Wextra -pthread -I./Sincronizacao-do-Metro Sincronizacao-do-Metro/sync_car.c testes_locais/teste_casos.c -o testes_locais/teste_casos[A]0;letciasiqueira@Letcia: ~/lmss4[01;32mletciasiqueira@Letcia[00m:[01;34m~/lmss4[00m$ timeout 10s ./testes_locais/teste_casos 2[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C345[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kcd Sincronizacao-do-Metro
+[?2004l[?2004h]0;letciasiqueira@Letcia: ~/lmss4/Sincronizacao-do-Metro[01;32mletciasiqueira@Letcia[00m:[01;34m~/lmss4/Sincronizacao-do-Metro[00m$ exit
+[?2004lexit
+
+Script done on 2026-11-04 19:02:23-03:00 [COMMAND_EXIT_CODE="0"]
+Script started on 2026-11-04 19:07:56-03:00 [TERM="xterm-256color" TTY="/dev/pts/4" COLUMNS="170" LINES="19"]
+[?2004h]0;letciasiqueira@Letcia: ~/lmss4/Sincronizacao-do-Metro[01;32mletciasiqueira@Letcia[00m:[01;34m~/lmss4/Sincronizacao-do-Metro[00m$ cd ..
+[?2004l[?2004h]0;letciasiqueira@Letcia: ~/lmss4[01;32mletciasiqueira@Letcia[00m:[01;34m~/lmss4[00m$ [7mgcc -Wall -Wextra -pthread \[27m
+[7m-I./Sincronizacao-do-Metro \[27m
+[7mSincronizacao-do-Metro/sync_car.c \[27m
+[7mtestes_locais/teste_adicionais.c \[27m
+[7m-o testes_locais/teste_adicionais[27m[A[A[A[Agcc -Wall -Wextra -pthread \
+-I./Sincronizacao-do-Metro \
+Sincronizacao-do-Metro/sync_car.c \
+testes_locais/teste_adicionais.c \
+-o testes_locais/teste_adicionais
+[?2004l[?2004h]0;letciasiqueira@Letcia: ~/lmss4[01;32mletciasiqueira@Letcia[00m:[01;34m~/lmss4[00m$ make clean
+[?2004lmake: *** No rule to make target 'clean'.  Stop.
+[?2004h]0;letciasiqueira@Letcia: ~/lmss4[01;32mletciasiqueira@Letcia[00m:[01;34m~/lmss4[00m$ [7mtimeout 10s ./testes_locais/teste_adicionais 6[27m
+[7mtimeout 10s ./testes_locais/teste_adicionais 7[27m
+[7mtimeout 10s ./testes_locais/teste_adicionais 8[27m
+[7mtimeout 10s ./testes_locais/teste_adicionais 9[27m[A[A[Atimeout 10s ./testes_locais/teste_adicionais 6
+timeout 10s ./testes_locais/teste_adicionais 7
+timeout 10s ./testes_locais/teste_adicionais 8
+timeout 10s ./testes_locais/teste_adicionais 9
+[?2004lCarro com 0 lugares: nenhum embarcou.
+Teste 6 PASSOU!
+Teste 7 PASSOU!
+Estacao B funcionou sem liberar passageiro A.
+Teste 8 PASSOU!
+Passageiro esta aguardando outro carro.
+Teste 9 PASSOU!
+[?2004h]0;letciasiqueira@Letcia: ~/lmss4[01;32mletciasiqueira@Letcia[00m:[01;34m~/lmss4[00m$ [7mgcc -Wall -Wextra -g -O1 \[27m
+[7m-fsanitize=thread -pthread \[27m
+[7m-I./Sincronizacao-do-Metro \[27m
+[7mSincronizacao-do-Metro/sync_car.c \[27m
+[7mtestes_locais/teste_adicionais.c \[27m
+[7m-o testes_locais/teste_tsan[27m[A[A[A[A[A]0;letciasiqueira@Letcia: ~/lmss4[01;32mletciasiqueira@Letcia[00m:[01;34m~/lmss4[00m$ gcc -Wall -Wextra -g -O1 \
+-fsanitize=thread -pthread \
+-I./Sincronizacao-do-Metro \
+Sincronizacao-do-Metro/sync_car.c \
+testes_locais/teste_adicionais.c \
+-o testes_locais/teste_tsan
+[?2004l[?2004h]0;letciasiqueira@Letcia: ~/lmss4[01;32mletciasiqueira@Letcia[00m:[01;34m~/lmss4[00m$ [7mtimeout 15s ./testes_locais/teste_tsan 6[27m
+[7mtimeout 15s ./testes_locais/teste_tsan 7[27m
+[7mtimeout 15s ./testes_locais/teste_tsan 8[27m
+[7mtimeout 15s ./testes_locais/teste_tsan 9[27m[A[A[Atimeout 15s ./testes_locais/teste_tsan 6
+timeout 15s ./testes_locais/teste_tsan 7
+timeout 15s ./testes_locais/teste_tsan 8
+timeout 15s ./testes_locais/teste_tsan 9
+[?2004lFATAL: ThreadSanitizer: unexpected memory mapping 0x62ca096ff000-0x62ca09700000
+FATAL: ThreadSanitizer: unexpected memory mapping 0x5e0caa3ca000-0x5e0caa3cb000
+FATAL: ThreadSanitizer: unexpected memory mapping 0x62cdb849e000-0x62cdb849f000
+FATAL: ThreadSanitizer: unexpected memory mapping 0x5bb28351b000-0x5bb28351c000
+[?2004h]0;letciasiqueira@Letcia: ~/lmss4[01;32mletciasiqueira@Letcia[00m:[01;34m~/lmss4[00m$ [7mfor i in $(seq 1 100); do[27m
+[7m    for teste in 6 7 8 9; do[27m
+[7m        timeout 10s ./testes_locais/teste_adicionais "$teste" > /dev/null[27m
+
+[7m        if [ $? -ne 0 ]; then[27m
+[7m            echo "FALHOU: repeticao $i, teste $teste"[27m
+[7m            exit 1[27m
+[7m        fi[27m
+[7m    done[27m
+[7mdone[27m
+
+[7mecho "Todos os 400 testes passaram!"[27m[A[A[A[A[A[A[A[A[A[A[Afor i in $(seq 1 100); do
+    for teste in 6 7 8 9; do
+        timeout 10s ./testes_locais/teste_adicionais "$teste" > /dev/null
+
+        if [ $? -ne 0 ]; then
+            echo "FALHOU: repeticao $i, teste $teste"
+            exit 1
+        fi
+    done
+done
+
+echo "Todos os 400 testes passaram!"
+[?2004lTodos os 400 testes passaram!
+[?2004h]0;letciasiqueira@Letcia: ~/lmss4[01;32mletciasiqueira@Letcia[00m:[01;34m~/lmss4[00m$ [7mgcc -Wall -Wextra -pthread \[27m
+[7m-I./Sincronizacao-do-Metro \[27m
+[7mSincronizacao-do-Metro/sync_car.c \[27m
+[7mtestes_locais/teste_concorrencia.c \[27m
+[7m-o testes_locais/teste_concorrencia[27m[A[A[A[Agcc -Wall -Wextra -pthread \
+-I./Sincronizacao-do-Metro \
+Sincronizacao-do-Metro/sync_car.c \
+testes_locais/teste_concorrencia.c \
+-o testes_locais/teste_concorrencia
+[?2004l[?2004h]0;letciasiqueira@Letcia: ~/lmss4[01;32mletciasiqueira@Letcia[00m:[01;34m~/lmss4[00m$ [7mtimeout 10s ./testes_locais/teste_concorrencia[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ctimeout 10s ./testes_locais/teste_concorrencia
+[?2004l[?2004h]0;letciasiqueira@Letcia: ~/lmss4[01;32mletciasiqueira@Letcia[00m:[01;34m~/lmss4[00m$ [7mtimeout 10s ./testes_locais/teste_concorrencia[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ctimeout 10s ./testes_locais/teste_concorrencia
+[?2004lPrimeiro passageiro autorizado.
+Passageiro 2 embarcou no primeiro carro.
+Teste de concorrencia concluido!
+[?2004h]0;letciasiqueira@Letcia: ~/lmss4[01;32mletciasiqueira@Letcia[00m:[01;34m~/lmss4[00m$ [7mtimeout 10s ./testes_locais/teste_concorrencia[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ctimeout 10s ./testes_locais/teste_concorrencia
+[?2004lPrimeiro passageiro autorizado.
+Passageiro 2 embarcou no primeiro carro.
+Teste de concorrencia concluido!
+[?2004h]0;letciasiqueira@Letcia: ~/lmss4[01;32mletciasiqueira@Letcia[00m:[01;34m~/lmss4[00m$ [7mfor i in $(seq 1 100); do[27m
+[7m    echo "Execucao $i"[27m
+
+[7m    timeout 10s ./testes_locais/teste_concorrencia[27m
+
+[7m    if [ $? -ne 0 ]; then[27m
+[7m        echo "Falha encontrada na execucao $i"[27m
+[7m        break[27m
+[7m    fi[27m
+[7mdone[27m[A[A[A[A[A[A[A[A[A]0;letciasiqueira@Letcia: ~/lmss4[01;32mletciasiqueira@Letcia[00m:[01;34m~/lmss4[00m$ for i in $(seq 1 100); do
+    echo "Execucao $i"
+
+    timeout 10s ./testes_locais/teste_concorrencia
+
+    if [ $? -ne 0 ]; then
+        echo "Falha encontrada na execucao $i"
+        break
+    fi
+done
+[?2004lExecucao 1
+Primeiro passageiro autorizado.
+Primeiro carro partiu.
+Passageiro 2 aguardou o proximo carro.
+Teste de concorrencia concluido!
+Execucao 2
+Primeiro passageiro autorizado.
+Primeiro carro partiu.
+Passageiro 2 aguardou o proximo carro.
+Teste de concorrencia concluido!
+Execucao 3
+Primeiro passageiro autorizado.
+Primeiro carro partiu.
+Passageiro 2 aguardou o proximo carro.
+Teste de concorrencia concluido!
+Execucao 4
+Primeiro passageiro autorizado.
+Passageiro 2 embarcou no primeiro carro.
+Teste de concorrencia concluido!
+Execucao 5
+Primeiro passageiro autorizado.
+Passageiro 2 embarcou no primeiro carro.
+Teste de concorrencia concluido!
+Execucao 6
+Falha encontrada na execucao 6
+[?2004h]0;letciasiqueira@Letcia: ~/lmss4[01;32mletciasiqueira@Letcia[00m:[01;34m~/lmss4[00m$ [7mtimeout 10s ./testes_locais/teste_concorrencia[27m
+[7mecho $?[27m[A]0;letciasiqueira@Letcia: ~/lmss4[01;32mletciasiqueira@Letcia[00m:[01;34m~/lmss4[00m$ timeout 10s ./testes_locais/teste_concorrencia
+echo $?
+[?2004lPrimeiro passageiro autorizado.
+Primeiro carro partiu.
+Passageiro 2 aguardou o proximo carro.
+Teste de concorrencia concluido!
+0
+[?2004h]0;letciasiqueira@Letcia: ~/lmss4[01;32mletciasiqueira@Letcia[00m:[01;34m~/lmss4[00m$ [7mfor i in $(seq 1 100); do[27m
+[7m    echo "Execucao $i"[27m
+
+[7m    timeout 10s stdbuf -oL ./testes_locais/teste_concorrencia > /tmp/resultado_concorrencia.log 2>&1[27m
+[7m    resultado=$?[27m
+
+[7m    if [ "$resultado" -ne 0 ]; then[27m
+[7m        echo "Falha na execucao $i - codigo: $resultado"[27m
+[7m        cat /tmp/resultado_concorrencia.log[27m
+[7m        break[27m
+[7m    fi[27m
+[7mdone[27m[A[A[A[A[A[A[A[A[A[A[A]0;letciasiqueira@Letcia: ~/lmss4[01;32mletciasiqueira@Letcia[00m:[01;34m~/lmss4[00m$ for i in $(seq 1 100); do
+    echo "Execucao $i"
+
+    timeout 10s stdbuf -oL ./testes_locais/teste_concorrencia > /tmp/resultado_concorrencia.log 2>&1
+    resultado=$?
+
+    if [ "$resultado" -ne 0 ]; then
+        echo "Falha na execucao $i - codigo: $resultado"
+        cat /tmp/resultado_concorrencia.log
+        break
+    fi
+done
+[?2004lExecucao 1
+Execucao 2
+Execucao 3
+Execucao 4
+Execucao 5
+Execucao 6
+Execucao 7
+Execucao 8
+Execucao 9
+Execucao 10
+Execucao 11
+Execucao 12
+Execucao 13
+Execucao 14
+Execucao 15
+Execucao 16
+Execucao 17
+Execucao 18
+Falha na execucao 18 - codigo: 124
+[?2004h]0;letciasiqueira@Letcia: ~/lmss4[01;32mletciasiqueira@Letcia[00m:[01;34m~/lmss4[00m$ [7mcat /tmp/resultado_concorrencia.log[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccat /tmp/resultado_concorrencia.log
+[?2004l[?2004h]0;letciasiqueira@Letcia: ~/lmss4[01;32mletciasiqueira@Letcia[00m:[01;34m~/lmss4[00m$ [7mcat /tmp/resultado_concorrencia.log[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccat /tmp/resultado_concorrencia.log
+[?2004l[?2004h]0;letciasiqueira@Letcia: ~/lmss4[01;32mletciasiqueira@Letcia[00m:[01;34m~/lmss4[00m$ [7mgcc -Wall -Wextra -pthread \[27m
+[7m-I./Sincronizacao-do-Metro \[27m
+[7mSincronizacao-do-Metro/sync_car.c \[27m
+[7mtestes_locais/teste_concorrencia.c \[27m
+[7m-o testes_locais/teste_concorrencia[27m[A[A[A[Agcc -Wall -Wextra -pthread \
+-I./Sincronizacao-do-Metro \
+Sincronizacao-do-Metro/sync_car.c \
+testes_locais/teste_concorrencia.c \
+-o testes_locais/teste_concorrencia
+[?2004l[?2004h]0;letciasiqueira@Letcia: ~/lmss4[01;32mletciasiqueira@Letcia[00m:[01;34m~/lmss4[00m$ [7mfor i in $(seq 1 100); do[27m
+[7m    timeout 10s stdbuf -oL ./testes_locais/teste_concorrencia > /tmp/resultado_concorrencia.log 2>&1[27m
+[7m    resultado=$?[27m
+
+[7m    if [ "$resultado" -ne 0 ]; then[27m
+[7m        echo "Falha na execucao $i - codigo: $resultado"[27m
+[7m        cat /tmp/resultado_concorrencia.log[27m
+[7m        break[27m
+[7m    fi[27m
+[7mdone[27m[A[A[A[A[A[A[A[A[A]0;letciasiqueira@Letcia: ~/lmss4[01;32mletciasiqueira@Letcia[00m:[01;34m~/lmss4[00m$ for i in $(seq 1 100); do
+    timeout 10s stdbuf -oL ./testes_locais/teste_concorrencia > /tmp/resultado_concorrencia.log 2>&1
+    resultado=$?
+
+    if [ "$resultado" -ne 0 ]; then
+        echo "Falha na execucao $i - codigo: $resultado"
+        cat /tmp/resultado_concorrencia.log
+        break
+    fi
+done
+[?2004l[?2004h]0;letciasiqueira@Letcia: ~/lmss4[01;32mletciasiqueira@Letcia[00m:[01;34m~/lmss4[00m$ for i in $(seq 1 100); do     timeout 10s stdbuf -oL ./testes_locais/teste_concorrencia > /tmp/resultado_concorrencia.log 2>&1;     resultado=$?;      if [ "$resultado" -ne 0 ]; then         echo "Falha na execucao $i - codigo: $resultado";         cat /tmp/resultado_concorrencia.log;         break;     fi; done[A[A]0;letciasiqueira@Letcia: ~/lmss4[01;32mletciasiqueira@Letcia[00m:[01;34m~/lmss4[00m$ gcc -Wall -Wextra -pthread -I./Sincronizacao-do-Metro Sincronizacao-do-Metro/sync_car.c testes_locais/teste_concorrencia.c -o testes_locais/teste_concorrencia[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004l[?2004h]0;letciasiqueira@Letcia: ~/lmss4[01;32mletciasiqueira@Letcia[00m:[01;34m~/lmss4[00m$ gcc -Wall -Wextra -pthread -I./Sincronizacao-do-Metro Sincronizacao-do-Metro/sync_car.c testes_locais/teste_concorrencia.c -o testes_locais/teste_concorrencia[A]0;letciasiqueira@Letcia: ~/lmss4[01;32mletciasiqueira@Letcia[00m:[01;34m~/lmss4[00m$ for i in $(seq 1 100); do     timeout 10s stdbuf -oL ./testes_locais/teste_concorrencia > /tmp/resultado_concorrencia.log 2>&1;     resultado=$?;      if [ "$resultado" -ne 0 ]; then         echo "Falha na execucao $i - codigo: $resultado";         cat /tmp/resultado_concorrencia.log;         break;     fi; done
+[?2004l[?2004h]0;letciasiqueira@Letcia: ~/lmss4[01;32mletciasiqueira@Letcia[00m:[01;34m~/lmss4[00m$ [7mecho $?[27mecho $?
+[?2004l0
+[?2004h]0;letciasiqueira@Letcia: ~/lmss4[01;32mletciasiqueira@Letcia[00m:[01;34m~/lmss4[00m$ [7m/tmp/resultado_concorrencia.log[27m/tmp/resultado_concorrencia.log
+[?2004lbash: /tmp/resultado_concorrencia.log: Permission denied
+[?2004h]0;letciasiqueira@Letcia: ~/lmss4[01;32mletciasiqueira@Letcia[00m:[01;34m~/lmss4[00m$ /tmp/resultado_concorrencia.logecho $?[Kfor i in $(seq 1 100); do     timeout 10s stdbuf -oL ./testes_locais/teste_concorrencia > /tmp/resultado_concorrencia.log 2>&1;     resultado=$?;      if [ "$resultado" -ne 0 ]; then         echo "Falha na execucao $i - codigo: $resultado";         cat /tmp/resultado_concorrencia.log;         break;     fi; done[A[A]0;letciasiqueira@Letcia: ~/lmss4[01;32mletciasiqueira@Letcia[00m:[01;34m~/lmss4[00m$ gcc -Wall -Wextra -pthread -I./Sincronizacao-do-Metro Sincronizacao-do-Metro/sync_car.c testes_locais/teste_concorrencia.c -o testes_locais/teste_concorrencia[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004l[?2004h]0;letciasiqueira@Letcia: ~/lmss4[01;32mletciasiqueira@Letcia[00m:[01;34m~/lmss4[00m$ [7mfor i in $(seq 1 100); do[27m
+[7m    echo "Executando teste $i"[27m
+
+[7m    timeout 10s stdbuf -oL ./testes_locais/teste_concorrencia > /tmp/resultado_concorrencia.log 2>&1[27m
+[7m    resultado=$?[27m
+
+[7m    if [ "$resultado" -ne 0 ]; then[27m
+[7m        echo "FALHA no teste $i - codigo: $resultado"[27m
+[7m        cat /tmp/resultado_concorrencia.log[27m
+[7m        break[27m
+[7m    fi[27m
+
+[7m    if [ "$i" -eq 100 ]; then[27m
+[7m        echo "SUCESSO: todos os 100 testes passaram!"[27m
+[7m    fi[27m
+[7mdone[27m[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A]0;letciasiqueira@Letcia: ~/lmss4[01;32mletciasiqueira@Letcia[00m:[01;34m~/lmss4[00m$ for i in $(seq 1 100); do
+    echo "Executando teste $i"
+
+    timeout 10s stdbuf -oL ./testes_locais/teste_concorrencia > /tmp/resultado_concorrencia.log 2>&1
+    resultado=$?
+
+    if [ "$resultado" -ne 0 ]; then
+        echo "FALHA no teste $i - codigo: $resultado"
+        cat /tmp/resultado_concorrencia.log
+        break
+    fi
+
+    if [ "$i" -eq 100 ]; then
+        echo "SUCESSO: todos os 100 testes passaram!"
+    fi
+done
+[?2004lExecutando teste 1
+Executando teste 2
+Executando teste 3
+Executando teste 4
+Executando teste 5
+Executando teste 6
+Executando teste 7
+Executando teste 8
+Executando teste 9
+Executando teste 10
+Executando teste 11
+Executando teste 12
+Executando teste 13
+Executando teste 14
+Executando teste 15
+Executando teste 16
+Executando teste 17
+Executando teste 18
+Executando teste 19
+Executando teste 20
+Executando teste 21
+Executando teste 22
+Executando teste 23
+Executando teste 24
+Executando teste 25
+Executando teste 26
+Executando teste 27
+Executando teste 28
+Executando teste 29
+Executando teste 30
+Executando teste 31
+Executando teste 32
+Executando teste 33
+Executando teste 34
+Executando teste 35
+Executando teste 36
+Executando teste 37
+Executando teste 38
+Executando teste 39
+Executando teste 40
+Executando teste 41
+Executando teste 42
+Executando teste 43
+Executando teste 44
+Executando teste 45
+Executando teste 46
+Executando teste 47
+Executando teste 48
+Executando teste 49
+Executando teste 50
+Executando teste 51
+Executando teste 52
+Executando teste 53
+Executando teste 54
+Executando teste 55
+Executando teste 56
+Executando teste 57
+Executando teste 58
+Executando teste 59
+Executando teste 60
+Executando teste 61
+Executando teste 62
+Executando teste 63
+Executando teste 64
+Executando teste 65
+Executando teste 66
+Executando teste 67
+Executando teste 68
+Executando 
